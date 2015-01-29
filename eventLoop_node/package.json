@@ -1,0 +1,11 @@
+{
+  "name": "eventLoop_node",
+  "version": "1.0.0",
+  "description": "A sample tcp evented server for a simple movement game",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma"
+  },
+  "author": "Shawn Campbell <jaegerpicker@gmail.com>",
+  "license": "ISC"
+}
