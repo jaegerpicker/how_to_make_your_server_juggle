@@ -5,7 +5,7 @@ This talk covers four of the most popular concurrency models for writing server 
 
 * Threads - examples provided in Ruby
 * CSP - examples provided in Go
-* Actors - examples provided in Clojure
+* Actors - examples provided in Elixir
 * Event loop - examples provided in Node.js
 
 The slides are written in [reveal.js](http://lab.hakim.se/reveal-js/#/ "Reveal.js")
