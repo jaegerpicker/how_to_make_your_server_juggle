@@ -11,12 +11,31 @@ class player
     end
 end
 
+class playerMove
+    def initialize(position, player)
+        @position = position
+        @player = player
+    end
+end
+
+class board
+    def initialize(rows, columns)
+        @rows = rows
+        @columns = columns
+    end
+end
+
 class position
     def initialize(row, column)
         @row = row
         @column = column
     end
 end
+
+@board_x = 5
+@board_y = 5
+@playing_board = board.new([*1..5], [*"A".."E"])
+
 
 def setup
 
