@@ -1,27 +1,14 @@
 #! /usr/bin/ruby
 
-class player
-    def initialize(position_at, player_name, player_number, alive, num_turns, power)
-        @position_at = position_at
-        @player_name = player_name
-        @player_number = player_number
-        @alive = alive
-        @num_turns = num_turns
-        @power = power
-    end
-end
-
-class playerMove
-    def initialize(position, player)
-        @position = position
-        @player = player
-    end
-end
-
 class board
-    def initialize(rows, columns)
-        @rows = rows
-        @columns = columns
+    def initialize(board_size)
+      if board_size < 26 do
+        @rows = [*1..board_size]
+        alpha = [*"A".."Z"]
+        @columns = alpha[0,board_size]
+      else
+        return "Invalid board_size"
+      end
     end
 end
 
