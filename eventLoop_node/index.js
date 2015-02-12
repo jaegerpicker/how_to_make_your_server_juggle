@@ -41,7 +41,15 @@ function setup() {
   playing_board.rows = _.range(board_x);
   playing_board.columns = _.range(board_y);
   playing_board.columns = playing_board.columns.map(function(board_y, i) { String.fromCharCode(65 + i); });
-  
+  player_names = _.range(player_name_length);
+  players.forEach(function(p, i) {
+    p = player(position(Math.floor(Math.random() * playing_board.rows.length), playing_board.columns[Math.floor(Math.random() * playing_board.columns.length)])
+               , player_names.map(function(x, i) { return String.fromCharCode(97 + Math.floor(Math.random() * 26)); }).join()
+               , i
+               , true
+               , i); 
+                        
+  });
 }
 
 
