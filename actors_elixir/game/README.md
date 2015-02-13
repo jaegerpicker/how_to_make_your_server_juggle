@@ -1,3 +1,0 @@
-# Game
-
-** TODO: Add description **
