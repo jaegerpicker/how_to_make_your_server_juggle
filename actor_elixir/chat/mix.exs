@@ -4,7 +4,7 @@ defmodule Chat.Mixfile do
   def project do
     [app: :chat,
      version: "0.0.1",
-     elixir: "~> 0.13.1",
+     elixir: "~> 1.0.2",
      deps: deps]
   end
 
