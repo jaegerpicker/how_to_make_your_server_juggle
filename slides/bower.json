@@ -1,0 +1,8 @@
+{
+  "name": "how-to-make-your-server-juggle-a-tour-of-four-concurrency-models",
+  "version": "0.0.0",
+  "dependencies": {
+    "reveal.js": "~2.6.1",
+    "reveal-highlight-themes": "~8.3.0"
+  }
+}

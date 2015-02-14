@@ -1,0 +1,10 @@
+{
+  "generator-reveal": {
+    "presentationTitle": "How To Make your Server Juggle, a tour of four concurrency models",
+    "packageVersion": "0.0.0",
+    "useSass": true,
+    "deployToGithubPages": true,
+    "githubUsername": "jaegerpicker",
+    "githubRepository": "how_to_make_your_server_juggle"
+  }
+}
