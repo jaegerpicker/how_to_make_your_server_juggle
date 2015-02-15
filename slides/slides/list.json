@@ -1,1 +1,31 @@
-["index.md"]
+[
+    "index.md",
+    "what-is-concurrency.md",
+    "what-is-not-concurrency.md",
+    "what-is-it-good-for.md",
+    "so-far-so-good-whats-the-catch.md",
+    "in-practice-beware-ye-there-be-dragons-here.md",
+    "whats-yo-talkin-bout.md",
+    "mutating.md",
+    "wait-why.md",
+    "some-different-types-of-models.md",
+    "models-we-are-covering.md",
+    [
+        "threads.md",
+        "threads-example.md"
+    ],
+    [
+        "event-loop.md",
+        "event-loop-example.md"
+    ],
+    [
+        "csp.md",
+        "csp-example.md"
+    ],
+    [
+        "actor.md",
+        "actor-example.md"
+    ],
+    "summary.md",
+    "contact-info.md"
+]
