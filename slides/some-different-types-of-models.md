@@ -9,5 +9,4 @@
 * Tuple spaces, e.g., Linda
 * SCOOP (Simple Concurrent Object-Oriented Programming)
 * Reo Coordination Language
-
-List pulled From wikipedia. Not included: Threads and Event Loops which are very common.
+* Threads and Event Loops which are very common.

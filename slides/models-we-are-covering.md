@@ -5,6 +5,6 @@
 * CSP - Communicating Sequential Processes
     * Common Uses: Server side application development, functional languages
 * Actors
-    * Common Uses: Distrubuted applications, message queues
+    * Common Uses: Distributed applications, message queues
 * EventLoops
     * Common Uses: Network multi-user servers, web UI's
