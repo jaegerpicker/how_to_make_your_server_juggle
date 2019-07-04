@@ -4,11 +4,15 @@
   "description": "A sample tcp evented server for a simple movement game",
   "main": "index.js",
   "scripts": {
-    "test": "karma"
+    "test": "karma",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "author": "Shawn Campbell <jaegerpicker@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "lodash": "latest"
-  }
+    "lodash": "latest",
+    "snyk": "^1.189.0"
+  },
+  "snyk": true
 }
